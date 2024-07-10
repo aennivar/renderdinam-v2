@@ -26,7 +26,7 @@ function mostrarSlide(index) {
     slides[slideIndex].classList.add("mostrarSlide");
 }
 function slideAnte() {
-    clearInterval(intervaloId);
+    clearInterval(intervaloId); // Temporizador de intervalo é interrompido
     slideIndex--;
     mostrarSlide(slideIndex);
 }
